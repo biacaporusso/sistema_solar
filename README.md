@@ -4,7 +4,7 @@ Este projeto é uma simulação do sistema solar em C++, desenvolvida na discipl
 
 ## Demonstração 🚀
 
-![Sistema Solar](caminho/para/seu/screenshot.png) 
+![Sistema Solar](imagens/simulacao.jpg) 
 
 ## Funcionalidades 🌟
 
