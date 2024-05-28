@@ -19,7 +19,6 @@ Este projeto é uma simulação do sistema solar em C++, desenvolvida na discipl
 - [C++](https://www.cplusplus.com/)
 - [OpenGL](https://www.opengl.org/)
 - [GLUT](https://www.opengl.org/resources/libraries/glut/)
-- [CMake](https://cmake.org/)
 
 No meu caso, utilizei o Visual Studio Code + linux para compilação do trabalho. Para isso, é necessário instalar o Glut e a biblioteca Soil (necessária para utilização de texturas), que será mostrado em seguida.
 
