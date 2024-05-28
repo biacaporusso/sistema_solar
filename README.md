@@ -27,18 +27,18 @@ No meu caso, utilizei o Visual Studio Code + linux para compilação do trabalho
 ### Passos para Instalação
 
 1. Instale o Glut e a bilioteca Soil:
-'''sh
-sudo apt-get install freeglut3-dev
-sudo apt install libsoil-dev
-'''
+    ```sh
+    sudo apt-get install freeglut3-dev
+    sudo apt install libsoil-dev
+    ```
 
-2. Clone o repositório:
+3. Clone o repositório:
     ```sh
     git clone https://github.com/seu-usuario/sistema_solar.git
     cd sistema_solar
     ```
 
-3. Compile o projeto:
+4. Compile o projeto:
     ```sh
     g++ -o sistema_solar planetario.cpp -lGL -lGLU -lglut -lSOIL
     ```
