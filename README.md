@@ -4,7 +4,7 @@ Este projeto é uma simulação do sistema solar em C++, desenvolvida na discipl
 
 ## Demonstração 🚀
 
-![Sistema Solar](imagens/simulacao.jpg) 
+<img src="imagens/simulacao.jpg" alt="Sistema Solar" width="600"/>
 
 ## Funcionalidades 🌟
 
@@ -53,7 +53,6 @@ No meu caso, utilizei o Visual Studio Code + linux para compilação do trabalho
 - **C++**: Linguagem de programação principal
 - **OpenGL**: Biblioteca para gráficos 3D
 - **GLUT**: Biblioteca para gerenciamento de janelas e entrada de usuário
-- **CMake**: Sistema de build
 
 ## Melhorias Futuras ✨
 
