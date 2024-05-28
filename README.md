@@ -4,7 +4,7 @@ Este projeto é uma simulação do sistema solar em C++, desenvolvida na discipl
 
 ## Demonstração 🚀
 
-![Sistema Solar](caminho/para/seu/screenshot.png) 
+<img src="imagens/simulacao.jpg" alt="Sistema Solar" width="600"/>
 
 ## Funcionalidades 🌟
 
@@ -19,22 +19,27 @@ Este projeto é uma simulação do sistema solar em C++, desenvolvida na discipl
 - [C++](https://www.cplusplus.com/)
 - [OpenGL](https://www.opengl.org/)
 - [GLUT](https://www.opengl.org/resources/libraries/glut/)
-- [CMake](https://cmake.org/)
+
+No meu caso, utilizei o Visual Studio Code + linux para compilação do trabalho. Para isso, é necessário instalar o Glut e a biblioteca Soil (necessária para utilização de texturas), que será mostrado em seguida.
+
 
 ### Passos para Instalação
 
-1. Clone o repositório:
+1. Instale o Glut e a bilioteca Soil:
+    ```sh
+    sudo apt-get install freeglut3-dev
+    sudo apt install libsoil-dev
+    ```
+
+3. Clone o repositório:
     ```sh
     git clone https://github.com/seu-usuario/sistema_solar.git
     cd sistema_solar
     ```
 
-2. Compile o projeto:
+4. Compile o projeto:
     ```sh
-    mkdir build
-    cd build
-    cmake ..
-    make
+    g++ -o sistema_solar planetario.cpp -lGL -lGLU -lglut -lSOIL
     ```
 
 3. Execute o programa:
@@ -47,5 +52,10 @@ Este projeto é uma simulação do sistema solar em C++, desenvolvida na discipl
 - **C++**: Linguagem de programação principal
 - **OpenGL**: Biblioteca para gráficos 3D
 - **GLUT**: Biblioteca para gerenciamento de janelas e entrada de usuário
-- **CMake**: Sistema de build
 
+## Melhorias Futuras ✨
+
+- Adicionar imagem de fundo, simulando o universo
+- Desenhar as órbitas de cada planeta
+- Ajustar os anéis de Saturno e Urano
+- Calcular as velocidades exatas de rotação e translação de cada planeta
