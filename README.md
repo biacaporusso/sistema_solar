@@ -55,3 +55,9 @@ No meu caso, utilizei o Visual Studio Code + linux para compilação do trabalho
 - **GLUT**: Biblioteca para gerenciamento de janelas e entrada de usuário
 - **CMake**: Sistema de build
 
+## Melhorias Futuras ✨
+
+- Adicionar imagem de fundo, simulando o universo
+- Desenhar as órbitas de cada planeta
+- Ajustar os anéis de Saturno e Urano
+- Calcular as velocidades exatas de rotação e translação de cada planeta
